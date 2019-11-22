@@ -10,7 +10,7 @@ function listToDo(item) {
   let taskList = document.getElementById("tasks");
 
   listItemText.innerText = task.value;
-  // listItem.appendChild(listItemText);
+  listItem.appendChild(listItemText);
   taskList.appendChild(listItem);
 
   task.value = "";
