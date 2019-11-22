@@ -9,9 +9,9 @@ function listToDo(item) {
   let listItem = document.createElement("li");
   let taskList = document.getElementById("tasks");
 
-  // listItemText.innerText = task.value;
-  // listItem.appendChild(listItemText);
-  // taskList.appendChild(listItem);
+  listItemText.innerText = task.value;
+  listItem.appendChild(listItemText);
+  taskList.appendChild(listItem);
 
   task.value = "";
 };
