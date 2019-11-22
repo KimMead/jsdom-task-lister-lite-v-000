@@ -11,7 +11,7 @@ function listToDo(item) {
 
   listItemText.innerText = task.value;
   listItem.appendChild(listItemText);
-  taskList.appendChild(listItem);
+  // taskList.appendChild(listItem);
 
   task.value = "";
 };
